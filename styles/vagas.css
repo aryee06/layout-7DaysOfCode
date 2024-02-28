@@ -1,0 +1,50 @@
+.vagas{
+  width: 1280px;
+  height: 940px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+
+.vaga{
+ width: 768px;
+ height: 136px;
+ border: 1px solid;
+ border-color:#EAECF0;
+ border-radius: 16px;
+ gap: 24px;
+
+}
+
+.titulo-vaga{
+    color: var(--preto-titulo);
+    width: 720px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .informacoes{
+    color: var(--text-color);
+    width: 768px;
+    height: 136px;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.titulo4{
+    color: var(--preto-titulo);
+    width: 768px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+
+
+}

@@ -1,0 +1,49 @@
+.segundasessao{
+    background-color: var(--branco-principal);
+    width: 100vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px, 32px, 0px, 32px;
+    gap: 180px;
+    margin: 10px 50px 20px;
+    }
+  
+    .divisoes{
+      background-color: var(--branco-principal);
+      width: 25vh;
+      height: 50vh;
+      gap: 12px; 
+     
+    }
+  
+    .titulo2{
+    color: var(--vermelho-destaque);
+    font-weight: 600;
+    font-size: 48px;
+    width: 620px;
+    height: 60px;
+    gap: 64px;
+    
+  }
+  
+  .subtitulo{
+    color: var(--preto-titulo);
+    font-weight: 500;
+    font-size: 18px;
+    width: 280px;
+    height: 28px;
+    gap: 64px;
+    
+  }
+  
+  .texto2{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    width: 280px;
+    height: 62px;
+    gap: 64px;
+   
+  }

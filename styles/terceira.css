@@ -1,0 +1,52 @@
+.terceirasessao{
+    background-color: var(--branco-principal);
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .destaque{
+    background-color: #8E24240D;
+    background-size: 130px 30px;
+    border-radius: 16px;
+    color: var(--vermelho-destaque);
+    font-weight: 500;
+    font-size: 14px;
+    width: 101px;
+    height: 20px;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .titulo3{
+    color: var(--preto-titulo);
+    font-weight: 600;
+    font-size: 40px;
+    width: 768px;
+    height: 44px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto3{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 20px;
+    width: 768px;
+    height: 30px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .equipe#img{
+    width: 100vh;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
