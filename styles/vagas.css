@@ -1,50 +1,54 @@
 .vagas{
-  width: 1280px;
-  height: 940px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  padding-top: 100px;
-  margin-left: 100px;
+ padding-top: 4rem;
 }
 
 .vaga{
- width: 768px;
- height: 136px;
- border: 1px solid;
- border-color:#EAECF0;
- border-radius: 16px;
- gap: 24px;
-
+  border: 1px solid #EAECF0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  
 }
 
 .titulo-vaga{
     color: var(--preto-titulo);
-    width: 720px;
-    height: 28px;
     font-weight: 500;
-    font-size: 28px;
-    display: flex;
-    align-items: center;
+    margin-bottom: 16px;
+    
   }
   
   .informacoes{
+    margin-top: 1rem;
+    font-size: 90%;
     color: var(--text-color);
-    width: 768px;
-    height: 136px;
-    font-weight: 500;
-    font-size: 16px;
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
+   
+    
   }
 
 .titulo4{
-    color: var(--preto-titulo);
-    width: 768px;
-    height: 30px;
-    font-weight: 500;
-    font-size: 20px;
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: var(--title-color);
+
+}
+
+@media screen and (max-width: 850px) {
+  .vaga {
+    max-width: 70%;
+  }
+  
+  .titulo-vaga {
+    max-width: 70%;
+  }
+
 
 
 }

@@ -1,0 +1,39 @@
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 8rem auto;
+    background-color: rgba(195, 25, 25, 0.05);
+    padding: 3rem 2rem;
+}
+
+.destaque2{
+    color: var(--vermelho-destaque);
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.titulo5{
+    color: var(--preto-titulo);
+    font-weight: 500;
+    text-align: center;
+    max-width: 70%;
+    margin: 2rem 0;
+
+}
+
+.nome{
+    margin: 0.5rem 0;
+    font-weight: 400;
+
+
+
+}
+ 
+.cargo{
+    color: var(--text-color);
+    font-weight: 400;
+
+}

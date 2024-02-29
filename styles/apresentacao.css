@@ -1,37 +1,33 @@
 .caixadetexto{
-    background-color: var(--branco-principal);
-    width: 1440px;
-    height: 407px;
-    padding: 96px 2px 96px 0;
-    gap: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 6rem 1rem ;
+  background-color: var(--branco-principal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   }
   .superiortexto{
     color: var(--vermelho-destaque);
-    font-weight: 600;
-    font-size: 16px;
-    width: 78px;
-    height: 24px;
-    line-height: 24px;
-    gap: 64px;
   }
   
   .titulo1{
     color:  var(--preto-titulo);
-    font-weight: 600;
-    font-size: 48px;
-    width: 620px;
-    height: 60px;
-    gap: 64px;
-    justify-content: space-between;
+    font-size: 2rem; 
+    text-align: center;
   }
   
   .texto1{
     color: var(--text-color);
-    font-weight: 400;
-    font-size: 20px;
-    width: 791px;
-    height: 60px;
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+    }
+
+    @media screen and (max-width: 850px) {
+      .texto1{
+        max-width: 70%;
+      }
+
+
+
     }
