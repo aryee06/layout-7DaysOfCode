@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: var(--vermelho-destaque);
+    color: var(--branco-principal);
+  }
+
+  @media screen and (max-width: 850px) {
+  nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  //* margin: 1.5rem;*//
+   gap: 7rem;
+
+  }
+  .links a{
+     display: none;
+
+  }
+
+
+  }

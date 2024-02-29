@@ -1,0 +1,40 @@
+footer{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background:#F9FAFB ;
+ max-width: 80%;
+ padding: 4rem 1.5rem;
+ margin: 8rem auto;
+ gap: 1.5rem;
+ text-align: center;
+}
+
+footer h2{
+    color: var(--preto-titulo);
+    margin: 1.5rem 0;
+}
+
+footer span{
+  color: var(--text-color);
+  margin: 1.5rem 0;
+}
+
+footer form{
+ display: flex;
+ justify-content: space-between;
+
+
+}
+
+footer input{
+  outline: none;
+  border: 1px solid #D0D5DD;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  width: 12rem;
+  margin-right: 1rem;
+
+
+}

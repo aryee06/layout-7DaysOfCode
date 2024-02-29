@@ -1,0 +1,54 @@
+.vagas{
+ padding-top: 4rem;
+}
+
+.vaga{
+  border: 1px solid #EAECF0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  
+}
+
+.titulo-vaga{
+    color: var(--preto-titulo);
+    font-weight: 500;
+    margin-bottom: 16px;
+    
+  }
+  
+  .informacoes{
+    margin-top: 1rem;
+    font-size: 90%;
+    color: var(--text-color);
+    display: flex;
+    gap: 2rem;
+   
+    
+  }
+
+.titulo4{
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: var(--title-color);
+
+}
+
+@media screen and (max-width: 850px) {
+  .vaga {
+    max-width: 70%;
+  }
+  
+  .titulo-vaga {
+    max-width: 70%;
+  }
+
+
+
+}
