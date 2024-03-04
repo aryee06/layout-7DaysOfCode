@@ -4,7 +4,11 @@ nav {
     align-items: center;
     padding: 1rem 0;
   }
-  
+
+  .sideMenu{
+    display: none;
+  }
+
   .links a {
     color: var(--text-color);
     text-decoration: none;
@@ -27,16 +31,62 @@ nav {
     color: var(--branco-principal);
   }
 
+  .menu.active {
+    right: 0;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu .links a {
+    margin-bottom: 2rem;
+  }
+  
+  .sideMenu img {
+    position: relative;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
   @media screen and (max-width: 850px){
-  nav{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   gap: 7rem;
+ 
+  .sideMenu {
+    display: initial;
+    visibility: visible;
+  
+  }
 
+  .links {
+    margin: 2rem 0;
+    visibility: hidden;
   }
-  .links a{
-     display: none;
 
+  .links a {
+    margin-right: 0;
+  }
+
+  .menu {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -1000px;
+    height: 100vh;
+    background: #F9FAFB;
+    width: 15rem;
+    padding: 2rem;
+    transition: all 2s;
+  }
+
+  .menu .links, .menu .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
   }
+  
